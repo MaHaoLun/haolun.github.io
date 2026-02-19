@@ -38,7 +38,7 @@ function loadPublications() {
 function displayFallbackPublications() {
   const firstAuthorContainer = document.getElementById('first-author-publications');
   const coauthorContainer = document.getElementById('coauthor-publications');
-  firstAuthorContainer.innerHTML = `Error loading publications.`;
+  firstAuthorContainer.innerHTML = `No publication data available yet.`;
   coauthorContainer.innerHTML = ``;
 }
 
@@ -54,9 +54,9 @@ function renderPublications() {
   allPublications.forEach(publication => {
     const pubElement = createPublicationElement(publication);
 
-    // Check if Weijie Shi is the first author
+    // Check if Haolun Ma is the first author
     if (publication.authors && publication.authors.length > 0 &&
-        publication.authors[0].includes('Weijie Shi')) {
+        publication.authors[0].toLowerCase().includes('haolun ma')) {
       firstAuthorContainer.appendChild(pubElement);
     } else {
       coauthorContainer.appendChild(pubElement);
@@ -86,7 +86,7 @@ function createPublicationElement(publication) {
   // Format authors with highlighting
   let authorsHTML = '';
   publication.authors.forEach((author, index) => {
-    if (author.includes('Weijie Shi')) {
+    if (author.toLowerCase().includes('haolun ma')) {
       authorsHTML += `<strong>${author}</strong>`;
     } else {
       authorsHTML += author;
