@@ -55,8 +55,9 @@ function renderPublications() {
     const pubElement = createPublicationElement(publication);
 
     // Check if Haolun Ma is the first author
-    if (publication.authors && publication.authors.length > 0 &&
-        publication.authors[0].toLowerCase().includes('haolun ma')) {
+    if ((publication.first_author && Number(publication.first_author) === 1) ||
+        (publication.authors && publication.authors.length > 0 &&
+        publication.authors[0].toLowerCase().includes('haolun ma'))) {
       firstAuthorContainer.appendChild(pubElement);
     } else {
       coauthorContainer.appendChild(pubElement);

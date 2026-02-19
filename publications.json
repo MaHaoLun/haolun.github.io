@@ -2,7 +2,12 @@
   "publications": [
     {
       "title": "SIHO: Structure-to-Index Visibility Hybrid CPU-GPU Pipeline for Trajectory Perception Rollout",
-      "authors": ["Haolun MA", "Ziyi Liu", "Chuhan Hu", "Lei Li"],
+      "authors": [
+        "Haolun MA",
+        "Ziyi Liu",
+        "Chuhan Hu",
+        "Lei Li"
+      ],
       "venue": "KDD 2026 Research Track Cycle 2 Submission",
       "selected": 1,
       "award": "",
@@ -10,7 +15,14 @@
     },
     {
       "title": "Scalable Traffic Signal Control with Shared Policy Framework",
-      "authors": ["Haolun MA", "Yanchen ZHU", "Zizhuo Xu", "Weijie Shi", "Jiajie Xu", "Lei Li"],
+      "authors": [
+        "Haolun MA",
+        "Yanchen ZHU",
+        "Zizhuo Xu",
+        "Weijie Shi",
+        "Jiajie Xu",
+        "Lei Li"
+      ],
       "venue": "ICML 2026 Conference Submission",
       "selected": 1,
       "award": "",
@@ -18,7 +30,17 @@
     },
     {
       "title": "ReTRE: Benchmarking LLM Transfer Robustness with Structure-Preserving Variants",
-      "authors": ["ZhongDong Li", "Weijie Shi", "Yue Cui", "Haolun MA", "Yuanjun Liu", "Jiawei Li", "An Liu", "Jia Zhu", "Jiajie Xu"],
+      "authors": [
+        "ZhongDong Li",
+        "Weijie Shi",
+        "Yue Cui",
+        "Haolun MA",
+        "Yuanjun Liu",
+        "Jiawei Li",
+        "An Liu",
+        "Jia Zhu",
+        "Jiajie Xu"
+      ],
       "venue": "ACL ARR 2026 January Submission",
       "selected": 1,
       "award": "",
@@ -26,7 +48,18 @@
     },
     {
       "title": "LoopGuard: Breaking Self-Reinforcing Attention Loops via Dynamic KV Cache Intervention",
-      "authors": ["Dongjie Xu", "Hao Wu", "Weijie Shi", "Yue Cui", "Yuanjun Liu", "Jiawei Li", "Haolun MA", "An Liu", "Jia Zhu", "Jiajie Xu"],
+      "authors": [
+        "Dongjie Xu",
+        "Hao Wu",
+        "Weijie Shi",
+        "Yue Cui",
+        "Yuanjun Liu",
+        "Jiawei Li",
+        "Haolun MA",
+        "An Liu",
+        "Jia Zhu",
+        "Jiajie Xu"
+      ],
       "venue": "ACL ARR 2026 January Submission",
       "selected": 1,
       "award": "",
@@ -34,9 +67,45 @@
     },
     {
       "title": "A Just-In-Time Framework for Routing-Oriented Traffic Prediction",
-      "authors": ["Jing Zhao", "Lei Li", "Mengxuan Zhang", "Haolun Ma", "Xiaofang Zhou"],
+      "authors": [
+        "Jing Zhao",
+        "Lei Li",
+        "Mengxuan Zhang",
+        "Haolun Ma",
+        "Xiaofang Zhou"
+      ],
       "venue": "ICDE 2025",
       "selected": 1,
+      "award": "",
+      "links": {}
+    },
+    {
+      "title": "FutureLight: An Efficient Future Traffic Data-Driven Reinforcement Learning Framework for Traffic Signal Controls",
+      "authors": [
+        "Zizhuo Xu*",
+        "Haolun MA*",
+        "Lei Li",
+        "Zhiyuan Wang",
+        "Yunjie Huang",
+        "Xiaofang Zhou"
+      ],
+      "venue": "Preprint",
+      "selected": 1,
+      "first_author": 1,
+      "award": "Co-first authors: Zizhuo Xu and Haolun Ma",
+      "links": {}
+    },
+    {
+      "title": "SIGMOD Paper (Title Coming Soon)",
+      "authors": [
+        "Haolun MA",
+        "Jing Zhao",
+        "Mengxuan Zhang",
+        "Lei Li"
+      ],
+      "venue": "SIGMOD Submission",
+      "selected": 1,
+      "first_author": 1,
       "award": "",
       "links": {}
     }
